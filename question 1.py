@@ -47,13 +47,10 @@ friend_subgroups = list(community.greedy_modularity_communities(adam_subgraph))
 print(f"Number of nodes: {num_nodes}")
 print(f"Number of edges: {num_edges}")
 print(f"Number of connected components: {num_connected_components}")
-#רכיב קשירות אצלנו יש אחד
 print(f"Largest connected component size: {largest_component_size}")
-#כמה קשתים יוצא מכל קודקוד כל מספר מייצג מישהו
 print(f"Degree distribution: {degree_distribution}")
-#משולש שלוש אנשים שחברים אחד של השני
 print(f"Triangles involving Adam: {num_triangles_involving_adam}")
-#כולם חברים של כולם בגרף
+
 print(f"Maximum possible triangles: {max_triangles}")
 print(f"Adam's best friend: {adam_best_friend}")
 
